@@ -1,0 +1,102 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Tabla de proyectos pendientes y en curso*/
+#tablaProyectos {
+    width: 900px;
+    color: white;
+}
+
+#tablaProyectos th {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#tablaProyectos td {
+    font-style: italic;
+    text-align: center;
+}
+
+/*Apartado PRÓXIMOS CONCIERTOS*/
+.lastElement {
+    margin-top: -32px;
+}
+
+/*Proyectos*/
+.imgProyecto {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    border-radius: 20px;
+}
+.imgProyecto img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.imgProyecto p {
+    position: absolute;
+    top: 95%;
+    left: 74.19%;
+    color: #f7ca04;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: #073b4c;
+    padding-left: 5px;
+    border-radius: 10px 0 5px 0;
+}
+.imgProyecto p:hover {
+    cursor: pointer;
+}
+
+/*conciertos*/
+.interpretes {
+    color: black;
+}
+
+.left {
+    text-align: left;
+}
+
+
+#obrasManuelCastillo {
+    font-style: italic;
+}
+
+#obrasManuelCastillo li {
+    text-align: left;
+}
+
+/*#santinaMinera {
+    width: 20%;
+}*/
+
+.partitura1 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.partitura1 img {
+    opacity: 0.25;
+}
+
+/*.texto-encima {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}*/
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.justificado {
+    text-align: justify;
+}
